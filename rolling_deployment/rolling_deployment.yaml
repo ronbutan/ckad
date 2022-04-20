@@ -3,7 +3,14 @@ kind: Deployment
 metadata:
 	name: rolling-deployment
 spec:
+	progressDeadlineSeconds: 600
 	replicas: 5
+	revisionHistoryLimit: 10
+	strategy:
+		rollingUpdate:
+			maxSurge: 10%
+			maxUnavailable: 2
+		type: RollingUpdate
 	selector:
 		matchLabels:
 			app: rolling
