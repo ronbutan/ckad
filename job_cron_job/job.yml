@@ -1,25 +1,16 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: batch/v1
+kind: Job
 metadata:
-  name: nginx-dep
-  namespace: two
-  labels:
-    app: nginx
+  name: my-job
 spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: nginx
+  ttlSecondsAfterFinished: 100
   template:
-    metadata:
-      labels:
-        app: nginx
     spec:
       containers:
-      - name: nginx
-        image: nginx:stable
-        env:
-        - name: NGINX_PORT
-          value: 8081
-        ports:
-        - containerPort: 8081
+      - name: print
+        image: busybox:stable
+        command: ["echo", "This is a text!"]
+      restartPolicy: Never
+  backoffLimit: 4 # how many times to re-try the execution
+  activeDeadlineSeconds: 10
+ # max seconds to allow job to run
