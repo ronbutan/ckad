@@ -6,12 +6,12 @@ spec:
   schedule: "*/1 * * * *"
   jobTemplate:
     spec:
-    template:
-      spec:
-        containers:
-        - name: print
-          image: busybox:stable
-          command: ["echo", "This is a text!"]
-        restartPolicy: Never
-    backoffLimit: 4
-    activeDeadlineSeconds: 10
+      backoffLimit: 4
+      activeDeadlineSeconds: 10
+      template:
+        spec:
+          containers:
+          - name: print
+            image: busybox:stable
+            command: ["echo", "This is a text!"]
+          restartPolicy: Never
