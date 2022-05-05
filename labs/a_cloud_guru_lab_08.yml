@@ -1,0 +1,4 @@
+echo "han/c3p0-bf4bf9c7f-qqkls" > /home/cloud_user/probe-fix/broken-pod-name.txt
+
+k top po -n cpu | sort -r -k 2
+

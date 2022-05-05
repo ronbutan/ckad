@@ -1,0 +1,132 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: gotham-sa-token-fxsjn
+  namespace: cave
+type: kubernetes.io/service-account-token
+data:
+  ca.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUMvakNDQWVhZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeU1EVXdNekE0TVRReE5Gb1hEVE15TURRek1EQTRNVFF4TkZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBSlg5CkZqMlVVMFJlOUJ4NjA1YlJOK2wvY1N0WGxjYkVib0hxeUtQdmp4eEpNcUlDN25UdE9rNDdlaDlybUpnS1NxMnAKcjY1MGplYTlLTWRQTm5KS0xnUHU4dUswM0tkUDA5WlFlT3JidnJwU2RaZnJaaXpvamwyZUVrakJQZzFDWFBQQQp2ME9YMlNCcDJWcnBJWWhyT1BiNGFTaWdrejB0REhLSUxTMnNFeERxUEkwK3dVUXJZUUNOV0tVbE9CNXBrTWV5Cm5ReThIQ3dINTRZYS83NjZWUWx1VlFtdEgvVzA3cDhzaTBkNFBnMklPK2U2bHBDSnRKajRCeU9EdHZmOXdTYlIKTFNZK1BSOXlPWDFuQ25veUovMEp3VG5Xa3Z4SGRKcW16bUxKUTErNGl4aG1YZEFrRnlBRTkrTnEyOWRjcTdDZApUaWN6ZjJ3NHppRkE3OEMrc2w4Q0F3RUFBYU5aTUZjd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZPQ0p4WDFEZ3VPRG1XallRT3haTWhDV3BxY2FNQlVHQTFVZEVRUU8KTUF5Q0NtdDFZbVZ5Ym1WMFpYTXdEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBQ25CS0cvVllPK1lXKzJZaTRqVwo0RWVPa0tSS0x3andTWWJxSU1FaXl6akU5YldSNlc0OUNiSlhFRFNUTVk5R1ZoQnpmMGc2VCt4Wko2djhQMnNhCk0vbm9yS0hYWFNBeHN5RXZTM2I2aE8zMDB5T0lzZ09GaE4yMTJMWkZRWE9hbm9xNVovU01xMm01TzZGdFpLRTAKNEFlc0VCY1ZjMFNXZWorTFEzbnhBMWlRdmgvTlBJc1hFeGNXUUpiem5KU3kxd1NSdW1ndHQrOEtHcXNDUHQ3YgpWZUdjczBERHhtdlhEekxOM1hRb1k1QUM5ZlpSbzNRbGpQY1BBRmlGOEFMK3ZwMWhoOU84MmtiV04rVzFHN2tCCmlHd21jTTA1OStGcXN4M3A5ZndaOTkwRTFMVzhUT0RhQUVnT1lyamJHNngvTUZPZG1FSmVrakpDWDhTQ0VhYngKczZzPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+  namespace: Y2F2ZQ==
+  token: ZXlKaGJHY2lPaUpTVXpJMU5pSXNJbXRwWkNJNklqaFBZMGxWWVhoSGQweFJSMkpvWm1GNWQyZFdWalZCUTBzNFIwOTFjVEo0VlV3MVYxVnBjVU14WlRnaWZRLmV5SnBjM01pT2lKcmRXSmxjbTVsZEdWekwzTmxjblpwWTJWaFkyTnZkVzUwSWl3aWEzVmlaWEp1WlhSbGN5NXBieTl6WlhKMmFXTmxZV05qYjNWdWRDOXVZVzFsYzNCaFkyVWlPaUpqWVhabElpd2lhM1ZpWlhKdVpYUmxjeTVwYnk5elpYSjJhV05sWVdOamIzVnVkQzl6WldOeVpYUXVibUZ0WlNJNkltZHZkR2hoYlMxellTMTBiMnRsYmkxbWVITnFiaUlzSW10MVltVnlibVYwWlhNdWFXOHZjMlZ5ZG1salpXRmpZMjkxYm5RdmMyVnlkbWxqWlMxaFkyTnZkVzUwTG01aGJXVWlPaUpuYjNSb1lXMHRjMkVpTENKcmRXSmxjbTVsZEdWekxtbHZMM05sY25acFkyVmhZMk52ZFc1MEwzTmxjblpwWTJVdFlXTmpiM1Z1ZEM1MWFXUWlPaUkyTnpKak1ETmtZaTFsTldaaUxUUmhaakl0T1RObE9TMDFZamd4WWpZM1lqRTROMklpTENKemRXSWlPaUp6ZVhOMFpXMDZjMlZ5ZG1salpXRmpZMjkxYm5RNlkyRjJaVHBuYjNSb1lXMHRjMkVpZlEubl9iMng2eHhIb3phaGQ0ZkQzWDliWEdJQU90Q1RSYkd5WTJ3bWhHRjJJQ3hoaGVaUUVYN09WcDlmVUxZTWVNMDJoRE1fYWZrQXRRTkNybmJ6OEpicWRMT1dQS2N1U01JNk5aY3pWbGlYTGw4Qm5wVWVFeTlLaHBUS1RydVNka2dNSTk1OV9ybHlKckR4bF9aZkRIUEo3LXp5OFdPY1JvMElMYlRUV2RvMnl5TTZMR3p5eVdibFpWR3ItMmxhQVBFVmwtRGk5eU9MZU8zSHdpamE5Nm1FNG1YVEVVbHFHSDB0Q1AwamhjTXhnYkMxcUUtcVFORkhVV04zVF9iSGdVZ0k3UGdTdWFxM0E3VUhQZi1oamtkQ3duekVvNzNSUnM1ZE9UZ1RsQ1NHb3o3clRJNWNsMEpnSDJkRS1JaUNGSFoxNEU4aDkyQ0hfREhhYzNNcnRHdVJR
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: wayne-sa-token-fcn45
+  namespace: cave
+type: kubernetes.io/service-account-token
+data:
+  ca.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUMvakNDQWVhZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeU1EVXdNekE0TVRReE5Gb1hEVE15TURRek1EQTRNVFF4TkZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBSlg5CkZqMlVVMFJlOUJ4NjA1YlJOK2wvY1N0WGxjYkVib0hxeUtQdmp4eEpNcUlDN25UdE9rNDdlaDlybUpnS1NxMnAKcjY1MGplYTlLTWRQTm5KS0xnUHU4dUswM0tkUDA5WlFlT3JidnJwU2RaZnJaaXpvamwyZUVrakJQZzFDWFBQQQp2ME9YMlNCcDJWcnBJWWhyT1BiNGFTaWdrejB0REhLSUxTMnNFeERxUEkwK3dVUXJZUUNOV0tVbE9CNXBrTWV5Cm5ReThIQ3dINTRZYS83NjZWUWx1VlFtdEgvVzA3cDhzaTBkNFBnMklPK2U2bHBDSnRKajRCeU9EdHZmOXdTYlIKTFNZK1BSOXlPWDFuQ25veUovMEp3VG5Xa3Z4SGRKcW16bUxKUTErNGl4aG1YZEFrRnlBRTkrTnEyOWRjcTdDZApUaWN6ZjJ3NHppRkE3OEMrc2w4Q0F3RUFBYU5aTUZjd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZPQ0p4WDFEZ3VPRG1XallRT3haTWhDV3BxY2FNQlVHQTFVZEVRUU8KTUF5Q0NtdDFZbVZ5Ym1WMFpYTXdEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBQ25CS0cvVllPK1lXKzJZaTRqVwo0RWVPa0tSS0x3andTWWJxSU1FaXl6akU5YldSNlc0OUNiSlhFRFNUTVk5R1ZoQnpmMGc2VCt4Wko2djhQMnNhCk0vbm9yS0hYWFNBeHN5RXZTM2I2aE8zMDB5T0lzZ09GaE4yMTJMWkZRWE9hbm9xNVovU01xMm01TzZGdFpLRTAKNEFlc0VCY1ZjMFNXZWorTFEzbnhBMWlRdmgvTlBJc1hFeGNXUUpiem5KU3kxd1NSdW1ndHQrOEtHcXNDUHQ3YgpWZUdjczBERHhtdlhEekxOM1hRb1k1QUM5ZlpSbzNRbGpQY1BBRmlGOEFMK3ZwMWhoOU84MmtiV04rVzFHN2tCCmlHd21jTTA1OStGcXN4M3A5ZndaOTkwRTFMVzhUT0RhQUVnT1lyamJHNngvTUZPZG1FSmVrakpDWDhTQ0VhYngKczZzPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+  namespace: Y2F2ZQ==
+  token: ZXlKaGJHY2lPaUpTVXpJMU5pSXNJbXRwWkNJNklqaFBZMGxWWVhoSGQweFJSMkpvWm1GNWQyZFdWalZCUTBzNFIwOTFjVEo0VlV3MVYxVnBjVU14WlRnaWZRLmV5SnBjM01pT2lKcmRXSmxjbTVsZEdWekwzTmxjblpwWTJWaFkyTnZkVzUwSWl3aWEzVmlaWEp1WlhSbGN5NXBieTl6WlhKMmFXTmxZV05qYjNWdWRDOXVZVzFsYzNCaFkyVWlPaUpqWVhabElpd2lhM1ZpWlhKdVpYUmxjeTVwYnk5elpYSjJhV05sWVdOamIzVnVkQzl6WldOeVpYUXVibUZ0WlNJNkluZGhlVzVsTFhOaExYUnZhMlZ1TFdaamJqUTFJaXdpYTNWaVpYSnVaWFJsY3k1cGJ5OXpaWEoyYVdObFlXTmpiM1Z1ZEM5elpYSjJhV05sTFdGalkyOTFiblF1Ym1GdFpTSTZJbmRoZVc1bExYTmhJaXdpYTNWaVpYSnVaWFJsY3k1cGJ5OXpaWEoyYVdObFlXTmpiM1Z1ZEM5elpYSjJhV05sTFdGalkyOTFiblF1ZFdsa0lqb2labU0yWldZMFl6Z3ROREF3TVMwME1tWmhMVGc0WlRrdE5HSmtZamMzTmpVMk1EazVJaXdpYzNWaUlqb2ljM2x6ZEdWdE9uTmxjblpwWTJWaFkyTnZkVzUwT21OaGRtVTZkMkY1Ym1VdGMyRWlmUS5aN2w1RERNWU1hMjJ4RTNpR1hMckdEVnpmQkVVWTVMUW1vV2Nzb0ozVWU1RkpZcmI1M0VWYkc2ME1mbmNrTFhsRUs1eXFHSzI4Q1l0eDFSak1kWmtVclBXSXZSeF9FaElzRHhtaERnU1plamR0eTdQWW9IQnBBYzkyLW5SWUpXVFBFekwxTzY3MlQ1djVicS1hVjZqQnJsXy02OXhWLS1ibGFqdHhOYXlUWl9WbWxPNk5iSm5Sdy1lWUlNbmt3TUpJNlJiSXhhaUFJdmFKbFU3TV9QODhmWTVkY3QxR0FJVHBPS012aUh0YmJVRmpRUU96bVFrUFJocmNyejFkcmxLRG1UMFhXcXdsTzhpWGthdHVYZTQzYjIybVFDdlZpTGNRdVZPbXhub09yd0dUZnhsMWhNbXZPUWpjcnBobTU4dEJvX2NKYUtXd0hQTnE1MF9YeHNFUVE=
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: gotham-sa
+  namespace: cave
+secrets:
+- name: gotham-sa-token-fxsjn
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: wayne-sa
+  namespace: cave
+secrets:
+- name: wayne-sa-token-fcn45
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: batman-role
+  namespace: cave
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - deployments
+  - services
+  verbs:
+  - get
+  - list
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: robin-role
+  namespace: cave
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - pods
+  verbs:
+  - get
+  - list
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: robin-rb
+  namespace: cave
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: robin-role
+subjects:
+- kind: ServiceAccount
+  name: gotham-sa
+  namespace: cave
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: batman-rb
+  namespace: cave
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: batman-role
+subjects:
+- kind: ServiceAccount
+  name: wayne-sa
+  namespace: cave
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alfred
+  namespace: default
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: alfred
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: alfred
+    spec:
+      containers:
+      - image: nginx:stable
+        imagePullPolicy: IfNotPresent
+        name: nginx
+        ports:
+        - containerPort: 80
+          protocol: TCP
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30                                                   
